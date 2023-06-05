@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Goods</class>
+ <widget class="QWidget" name="Goods">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>471</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="1">
+     <widget class="QLabel" name="PriceSix">
+      <property name="text">
+       <string>379</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="PriceThree">
+      <property name="text">
+       <string>9990</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QSpinBox" name="sixth_push"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QSpinBox" name="fifth_push"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QSpinBox" name="second_push"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="seventh">
+      <property name="text">
+       <string>Ортодонтическая цепочка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLabel" name="PriceSeven">
+      <property name="text">
+       <string>419</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="PriceTwo">
+      <property name="text">
+       <string>490</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QSpinBox" name="first_push"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="fifth">
+      <property name="text">
+       <string>Корега-крем</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QSpinBox" name="seventh_push"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="sixth">
+      <property name="text">
+       <string>Виниры</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="check">
+      <property name="text">
+       <string>Посмотреть корзину</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="fourth">
+      <property name="text">
+       <string>Прокладки зубных протезов</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QPushButton" name="Add">
+      <property name="text">
+       <string>Добавить в корзину</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="PriceOne">
+      <property name="text">
+       <string>149</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="PriceFour">
+      <property name="text">
+       <string>329</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="PriceFive">
+      <property name="text">
+       <string>819</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QSpinBox" name="third_push"/>
+    </item>
+    <item row="9" column="2">
+     <widget class="QPushButton" name="order">
+      <property name="text">
+       <string>Заказать</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="second">
+      <property name="text">
+       <string>Межзубной ершик</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="first">
+      <property name="text">
+       <string>Гель &quot;Дентамент&quot;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="third">
+      <property name="minimumSize">
+       <size>
+        <width>201</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>201</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Набор отбеливания зубов</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QSpinBox" name="fourth_push"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Цена ₽</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>количество</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="True">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>331</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(26, 255, 0);
+background-color: rgb(206, 206, 206);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="False">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>331</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(206, 206, 206);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
